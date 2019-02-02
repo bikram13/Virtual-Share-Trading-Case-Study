@@ -1,0 +1,23 @@
+#wrapper {
+  display:table;
+  width:100%;
+  margin-top: 50px;
+}
+#row {
+  display:table-row;
+}
+#first {
+  display:table-cell;
+  
+  width:33%;
+}
+#second {
+  display:table-cell;
+  
+  width:33%;
+}
+#third {
+  display:table-cell;
+  
+  width:34%;
+}

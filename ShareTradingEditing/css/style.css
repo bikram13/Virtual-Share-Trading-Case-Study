@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+        font-size: 76%;
+		font-family: 'Open Sans';
+		top: 0;
+		
+	
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+        font-family: 'Open Sans';
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+        background: #444;
+    }
+    .fixed-footer{
+        bottom: 0;
+        background: #444;
+    }    
+    /* Some more styles to beutify this example */
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+        float: inherit;
+        line-height: 18px;
+        border-radius: 20px;
+    }
+    nav a:hover {
+	background: rgba(0,0,0,0.2);
+}
+nav a:active, nav a.active {
+	background: rgba(0,0,0,0.3);
+}
+    
+    .container p{
+        line-height: 200px; /* Create scrollbar to test positioning */
+    }

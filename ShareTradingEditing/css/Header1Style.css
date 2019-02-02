@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+
+body {
+	box-sizing: border-box;
+	position:relative;
+	font-size: 76%;
+	font-family: 'Open Sans';
+}
+
+
+header {
+	padding: 20px;
+	background: #444;
+	margin: 10px;
+	
+}
+
+/* Different colors */
+header.blue { background: #40B9D5; }
+header.green { background: #8BD540; }
+header.red { background: #D5405E; }
+header.purple { background: #C140D5; }
+header.dblue { background: #4058D5; }
+header.orange { background: #D56640; }
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul li {
+	float: right;
+	margin-right: 10px;
+}
+
+ul a {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 15px;
+	line-height: 18px;
+	text-decoration: none;
+	border-radius: 20px;
+	display: block;
+}
+
+ul a:hover {
+	background: rgba(0,0,0,0.2);
+}
+ul a:active, ul a.active {
+	background: rgba(0,0,0,0.3);
+}
